@@ -13,5 +13,6 @@ Members:
 - [Prathamesh Kawtikwar](https://github.com/ppk1709)
 - [S Sri Vaishnavi](https://github.com/vaishnavi-1035)
 - [Vashista Boddula](https://github.com/Vashista2412)
+- [Sanaga Sai Varshini](https://github.com/varshini2902)
 <br>
 -
