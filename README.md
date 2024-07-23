@@ -33,8 +33,8 @@ We conducted SLAM with the following two packages
 2. SLAM toolbox(For the addison bot)
 
 We got better results with latter, and the map after looked like this(we only mapped the lane in which the robot has to navigate through)
-![map](maps/my_map.pgm)
-<img "maps/my_map.pgm" alt="Map" width="200"/>
+![Screenshot](maps/my_map.pgm)
+<img src="maps/my_map.pgm" alt="Screenshot" width="200"/>
 
 
 After getting a fairly accurate map, we moved onto trying path planning algorithms like 
