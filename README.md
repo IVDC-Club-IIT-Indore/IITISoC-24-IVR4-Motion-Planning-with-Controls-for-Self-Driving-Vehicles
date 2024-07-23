@@ -34,6 +34,8 @@ We conducted SLAM with the following two packages
 
 We got better results with latter, and the map after looked like this(we only mapped the lane in which the robot has to navigate through)
 ![map](maps/my_map.pgm)
+<img "maps/my_map.pgm" alt="Map" width="200"/>
+
 
 After getting a fairly accurate map, we moved onto trying path planning algorithms like 
 1. RRT
@@ -46,8 +48,7 @@ First we converted our map to a binary occupancy grid given below to make path p
 Here's a one with Astar:
 ![Image](Images/Astar_waypoint.png)
 
-In the next phase, we'll be starting with implemention of Control algorithms like MPC(Model Predictive Control). 
-
+In the next phase, we'll be starting with implemention of Control algorithms like MPC(Model Predictive Control.
 
 
 
