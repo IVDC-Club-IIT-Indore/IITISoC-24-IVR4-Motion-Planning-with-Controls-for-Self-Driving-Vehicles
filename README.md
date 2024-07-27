@@ -192,7 +192,7 @@ The next step is to set up and execute the MPC algorithm. This involves defining
 
 The Trajectory obtained with this is:
 
-<img src="MPC_results\MPC_Trajectory_1.jpg" alt="MPC_trajectory" width="700" height="420">
+<img src="MPC_results\MPC_Trajectory_1.jpg" alt="MPC_trajectory" width="800" height="420">
 
 ##### Set Up the MPC Problem:
 We define the state-space representation of the system, including the 
@@ -218,6 +218,8 @@ This is the working model of the MPC Algorithm on Turtlebot3_Burger:
 [MPC_in_action](https://github.com/ppk1709/IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles/blob/main/MPC_results/MPC_in_action.mp4)
 
 ![gif_MPC](https://github.com/IVDC-Club-IIT-Indore/IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles/blob/main/MPC_results/mpc_gif.gif)
+
+Movement of Turtlebot3(Burger) on gazebo
 
 ![gif_2_MPC](https://github.com/IVDC-Club-IIT-Indore/IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles/blob/main/MPC_results/mpc_turtlebot-ezgif.com-video-to-gif-converter.gif)
 
