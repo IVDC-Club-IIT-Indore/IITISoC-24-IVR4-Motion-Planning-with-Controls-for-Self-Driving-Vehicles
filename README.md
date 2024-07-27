@@ -174,7 +174,7 @@ We used a waypoint navigation approach to cover the entire area. Our algorithm e
 Thus, with Astar, we achieved the following path.
 <div style="text-align:center;">
  <img src="Images\path_visualization.png" alt="Astar Path" width="400" height="400">
-</div>
+</div> 
 
 ### MPC Implementation:
 
