@@ -89,7 +89,7 @@ After getting a fairly accurate map, we moved onto trying path planning algorith
 ### Initial Approach:
 First we converted our map to a binary occupancy grid given below to make path planning feasible
 
-[Binary occupancy grid for Approach_1](Images/occupancy_grid_SLAM.png)
+[Binary occupancy grid for Initial_Approach](Images/occupancy_grid_SLAM.png)
 
 With the first approach on the first map(made by the addison bot), we tried plotting waypoints manually to get the results below.
 
