@@ -231,6 +231,27 @@ Q and 𝑅
 ##### Run the MPC Algorithm:
 In this step, we loop through the path points, solve the MPC optimization problem at each step, apply the control input to the system, and update the system state accordingly.
 
+### Complete Roadmap of MPC:
+
+###### Library Imports:
+Imports necessary libraries including ROS libraries (rospy, geometry_msgs, nav_msgs), CasADi for optimization, and other mathematical utilities.
+
+###### Parameter Initialization:
+Sets up various parameters for the MPC such as state and control dimensions, prediction horizon (N), control gains (Q_x, Q_y, Q_theta, R1, R2), and constraints.
+
+###### Global Variables:
+Declares global variables to store the current state of the robot (x, y, theta), quaternions (qx, qy, qz, qw), velocity (V), and angular velocity (omega).
+
+###### Callback Functions:
+Defines odomfunc to update the robot’s current position and orientation based on odometry data, and pathfunc to update the path for the robot to follow from the Path message.
+
+###### ROS Node and Communication Setup:
+Initializes the ROS node, sets up subscribers to the /odom and /my_path topics, and establishes a publisher to the /cmd_vel topic for sending velocity commands to the robot.
+
+###### Path Resolution and Time Step Calculation:
+Waits for the path data to be available, then calculates the path resolution and the time step (delta_T) based on the reference velocity (U_ref).
+
+
 This is the working model of the MPC Algorithm on Turtlebot3_Burger:
 [MPC_in_action](https://github.com/ppk1709/IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles/blob/main/MPC_results/MPC_in_action.mp4)
 
