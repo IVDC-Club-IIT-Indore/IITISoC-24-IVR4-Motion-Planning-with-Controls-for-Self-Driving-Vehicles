@@ -165,12 +165,12 @@ We have conducted research and finalized two search-based algorithms to determin
 <br>
 
 
-Initially, we had a map generated from a LiDAR scan during SLAM. 
+Finally, we had a map generated from a LiDAR scan during SLAM. 
 
 <img src="Path_planning_trials\Binary_Occupancy.png" alt="Binary Occupancy grid" width="300" height="300">
 
-To prepare the map for pathfinding, we converted all grey pixels (non-black except 254/255) to zero pixels, resulting in a modified map. As A* modifies some elements during its process, we further converted the 254 pixels to 0 and 0 pixels to 254, producing the appropriate map for A*. The algorithm encountered difficulties in completing the map if the starting and ending goals were the same. To address this, we introduced intermediate waypoints to guide the algorithm in creating an optimized and shortest path possible.
-We used a waypoint navigation approach to cover the entire area. Our algorithm executes missions autonomously once a set of waypoints is provided from the starting point to the goal in the form of absolute positions (such as GPS coordinates). Waypoint navigation facilitates the completion of the path by achieving shorter goals more easily.
+To prepare the map for pathfinding, we converted all grey pixels (non-black except 254/255) to zero pixels, resulting in a modified map. As A* is modifying white pixels to black and black to white during its process, we further converted the 254(white) pixels to 0(black) and 0 pixels to 254, producing the appropriate map for A*. For, dijkstra's method, we just used the conversion map to generate the path. We compared both methods using various parameters to check the best one. Finally, A highly optimized fully re-configurable grid-based A* implementation is used for our global planning. It is slightly slower but provides increased quality in paths. The algorithm encountered difficulties in completing the map if the starting and ending goals were the same. To address this, we introduced intermediate waypoints to guide the algorithm in creating an optimized and shortest path possible.
+We used a waypoint navigation approach to cover the entire area. Our algorithm executes missions autonomously once a set of waypoints is provided from the starting point to the goal in the form of absolute positions. Waypoint navigation facilitates the completion of the path by achieving shorter goals more easily.
 Thus, with Astar, we achieved the following path.
 <div style="text-align:center;">
  <img src="Images\Astar_trials.png" alt="Astar Path" width="300" height="300">
