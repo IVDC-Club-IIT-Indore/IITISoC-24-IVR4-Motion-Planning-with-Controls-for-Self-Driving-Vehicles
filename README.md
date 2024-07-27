@@ -58,7 +58,7 @@ Members:
 ## Implementation:
 As an input we were given a world file for the project which looks like this in gazebo
 <div style="text-align:centre;">
- <img src="Images/igvc_world.png" alt="Gazebo_world" width="300" height="300">
+ <img src="Images/igvc_world.png" alt="Gazebo_world" width="400" height="400">
 </div> 
 
 For the above project, we modelled our own 3-wheeled vehicle,
@@ -112,13 +112,13 @@ With the first approach on the first map(made by the addison bot), we tried plot
 
 Here's a one with Astar:
 
-<img src="Images/Astar_waypoint.png" alt="Astar algorithm using Waypoint Navigation" width="300" height="300">
+<img src="Images/Astar_waypoint.png" alt="Astar algorithm using Waypoint Navigation" width="450" height="400">
 
 ### Final Approach:
 
 Finally, we had a map generated from a LiDAR scan during SLAM. 
 
-<img src="Path_planning_trials\Binary_Occupancy.png" alt="Binary Occupancy grid" width="450" height="400">
+<img src="Path_planning_trials\map_soc_walls_3_modified.png" alt="Binary Occupancy grid" width="450" height="400">
 
 To prepare the map for pathfinding, we converted all grey pixels (non-black except 254/255) to zero pixels, resulting in a modified map. As A* is modifying white pixels to black and black to white during its process, we further converted the 254(white) pixels to 0(black) and 0 pixels to 254, producing the appropriate map for A*. For, dijkstra's method, we just used the modified map to generate the path. We compared both methods using various parameters to check the best one. The algorithm encountered difficulties in completing the map if the starting and ending goals were the same. To address this, we introduced intermediate waypoints to guide the algorithm in creating an optimized and shortest path possible.
 
@@ -279,7 +279,7 @@ This is the working model of the MPC Algorithm on Turtlebot3_Burger:
 
 ![gif_MPC](https://github.com/IVDC-Club-IIT-Indore/IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles/blob/main/MPC_results/mpc_gif.gif)
 
-Movement of Turtlebot3(Burger) on gazebo
+Movement of Turtlebot3(Burger) on gazebo using Model Predictive Controls
 
 ![gif_2_MPC](https://github.com/IVDC-Club-IIT-Indore/IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles/blob/main/MPC_results/mpc_turtlebot.gif)
 <p align="right">(<a href="#top">back to top</a>)</p>
