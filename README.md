@@ -259,7 +259,7 @@ This is the working model of the MPC Algorithm on Turtlebot3_Burger:
 
 Movement of Turtlebot3(Burger) on gazebo
 
-![gif_2_MPC](https://github.com/IVDC-Club-IIT-Indore/IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles/blob/main/MPC_results/mpc_turtlebot-ezgif.com-video-to-gif-converter.gif)
+![gif_2_MPC](https://github.com/IVDC-Club-IIT-Indore/IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles/blob/main/MPC_results/mpc_turtlebot.gif)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## References
