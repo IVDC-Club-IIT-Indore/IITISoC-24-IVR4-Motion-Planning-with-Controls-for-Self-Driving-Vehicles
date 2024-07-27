@@ -193,7 +193,7 @@ The next step is to set up and execute the MPC algorithm. This involves defining
 
 The Trajectory obtained with this is:
 
-<img src="MPC_results\MPC_Trajectory_1.jpg" alt="MPC_trajectory" width="300" height="200">
+<img src="MPC_results\MPC_Trajectory_1.jpg" alt="MPC_trajectory" width="500" height="400">
 
 ##### Set Up the MPC Problem:
 We define the state-space representation of the system, including the 
