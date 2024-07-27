@@ -173,7 +173,7 @@ We have conducted research and finalized two search-based algorithms to determin
 We used a waypoint navigation approach to cover the entire area. Our algorithm executes missions autonomously once a set of waypoints is provided from the starting point to the goal in the form of absolute positions. Waypoint navigation facilitates the completion of the path by achieving shorter goals more easily.
 Thus, with Astar, we achieved the following path.
 <div style="text-align:center;">
- <img src="Images\Astar_trials.png" alt="Astar Path" width="300" height="300">
+ <img src="Images\path_visualization.png" alt="Astar Path" width="300" height="300">
 </div>
 
 ### MPC Implementation:
