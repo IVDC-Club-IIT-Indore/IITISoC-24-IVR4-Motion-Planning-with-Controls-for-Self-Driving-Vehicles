@@ -99,6 +99,8 @@ After getting a fairly accurate map, we moved onto trying path planning algorith
 2. Astar
 3. Djikstra
 
+We had two approaches for Path-planning, one before the mid-eval and then the final approach after the mid-eval as we got more accurate maps in the later half of the project duration.
+
 ### Initial Approach:
 First, we converted our map to a binary occupancy grid given below to make path planning feasible
 
