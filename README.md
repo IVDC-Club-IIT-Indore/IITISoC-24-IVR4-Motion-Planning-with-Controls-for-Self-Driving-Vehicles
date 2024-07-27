@@ -101,6 +101,7 @@ After getting a fairly accurate map, we moved onto trying path planning algorith
 
 We had two approaches for Path-planning, one before the mid-eval and then the final approach after the mid-eval as we got more accurate maps in the later half of the project duration.
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 ### Initial Approach:
 First, we converted our map to a binary occupancy grid given below to make path planning feasible
 
@@ -191,6 +192,7 @@ Thus, with Astar, we achieved the following path.
  <img src="Images\path_visualization.png" alt="Astar Path" width="400" height="400">
 </div> 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 ### MPC Implementation:
 
 For the implementation of an optimal control algorithm for trajectory tracking and planning, we used the MPC (Model Predictive Control) algorithm.
@@ -238,6 +240,7 @@ Movement of Turtlebot3(Burger) on gazebo
 
 ![gif_2_MPC](https://github.com/IVDC-Club-IIT-Indore/IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles/blob/main/MPC_results/mpc_turtlebot-ezgif.com-video-to-gif-converter.gif)
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 ## References
 
 - M. Abed, B., & M. Jasim, W. (2023). Hybrid approach for multi-objective optimization path planning with moving target. Indonesian Journal of Electrical Engineering and Computer Science, 29(1), 348-357. doi:http://doi.org/10.11591/ijeecs.v29.i1.pp348-357
