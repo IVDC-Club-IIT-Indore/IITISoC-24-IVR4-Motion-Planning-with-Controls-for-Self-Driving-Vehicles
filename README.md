@@ -8,6 +8,7 @@
   <li><a href="#tech-stacks">Tech-Stacks</a></li>
   <li><a href="#implementation">Implementation</a></li>
   <li><a href="#mpc-implementation">MPC Implementation</a></li>
+  <li><a href="#complete-roadmap-of-mpc">Complete Roadmap of MPC</a></li>
   <li><a href="#references">References</a></li>
 </ul>
 </details>
