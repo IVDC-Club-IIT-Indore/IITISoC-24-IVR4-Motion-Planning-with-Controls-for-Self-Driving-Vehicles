@@ -77,7 +77,7 @@ To increase the accuracy of the map, we decided to add walls along the lane for 
 For the deployment of walls. we used Gazebo's building editor using the image of the top view of the igvc world as the
 [Floor_Plan](https://github.com/IVDC-Club-IIT-Indore/IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles/blob/main/Images/ground.png).
 
-With the usage of walls, we got a better [Map](maps\map_soc_walls_3.pgm)
+With the usage of walls, we got a better [Map](https://github.com/IVDC-Club-IIT-Indore/IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles/blob/main/Path_planning_trials/map_soc_walls_3.png)
 
 <img src="maps\map-soc-walls-3.png" alt="Map_Final" width="300" height="300">
 
