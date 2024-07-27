@@ -95,9 +95,9 @@ With the usage of walls, we got a better [Map](https://github.com/IVDC-Club-IIT-
 <img src="maps\map-soc-walls-3.png" alt="Map_Final" width="300" height="300">
 
 After getting a fairly accurate map, we moved onto trying path planning algorithms like 
-1. RRTstar
-2. Astar
-3. Djikstra
+1. Astar
+2. Djikstra
+3. RRTstar
 
 We had two approaches for Path-planning, one before the mid-eval and then the final approach after the mid-eval as we got more accurate maps in the later half of the project duration.
 <p align="right">(<a href="#top">back to top</a>)</p>
