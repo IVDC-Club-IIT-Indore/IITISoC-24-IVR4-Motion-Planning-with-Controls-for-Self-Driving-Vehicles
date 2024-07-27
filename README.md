@@ -82,7 +82,7 @@ We conducted SLAM with the following two packages
 1. Cartographer(for turtlebot3)
 2. SLAM toolbox(For the Addison bot)
 
-We got better results with the former, and the map after looked like this(we only mapped the lane in which the robot has to navigate through and with SLAM toolbox first.)
+We got better results with the former, and the map after looked like this(we only mapped the lane in which the robot has to navigate through and with the usage of SLAM toolbox first.)
 
 We got better results with the SLAM Cartographer method. Cartographer is a real-time simultaneous localization and mapping (SLAM) library developed by Google. It provides high-quality 2D and 3D SLAM solutions that can be used for robotics applications. The Cartographer SLAM method works by using sensor data, such as laser scans and IMU data, to create a map of the environment while simultaneously keeping track of the robot's position within that map.
 
