@@ -75,7 +75,7 @@ We got better results with latter, and the map after looked like this(we only ma
 
 To increase the accuracy of the map, we decided to add walls along the lane for the Lidar scans to be more robust and accurate.
 For the deployment of walls. we used Gazebo's building editor using the image of the top view of the igvc world as the
-[Floor_Plan](Images\ground.png).
+[Floor_Plan](https://github.com/IVDC-Club-IIT-Indore/IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles/blob/main/Images/ground.png).
 
 With the usage of walls, we got a better [Map](maps\map_soc_walls_3.pgm)
 
