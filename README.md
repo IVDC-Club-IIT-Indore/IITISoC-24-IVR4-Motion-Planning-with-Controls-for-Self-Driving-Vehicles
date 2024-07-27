@@ -1,5 +1,18 @@
 # IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles
 
+
+<details>
+  <summary>Table of Contents</summary>
+<ul>
+  <li><a href="#goal">Goal</a></li>
+  <li><a href="#tech-stacks">Tech-Stacks</a></li>
+  <li><a href="#implementation">Implementation</a></li>
+  <li><a href="#mpc-implementation">MPC Implementation</a></li>
+  <li><a href="#references">References</a></li>
+</ul>
+</details>
+
+
 ## Goal:
 To develop a reliable Motion Planner with Control algorithms for collision-free path planning and efficient navigation in a simulated environment.
 
@@ -73,8 +86,6 @@ We got better results with the former, and the map after looked like this(we onl
 
 We got better results with the SLAM Cartographer method. Cartographer is a real-time simultaneous localization and mapping (SLAM) library developed by Google. It provides high-quality 2D and 3D SLAM solutions that can be used for robotics applications. The Cartographer SLAM method works by using sensor data, such as laser scans and IMU data, to create a map of the environment while simultaneously keeping track of the robot's position within that map.
 
-[map_1](maps/my_map.pgm)
-
 To increase the accuracy of the map, we decided to add walls along the lane for the Lidar scans to be more robust and accurate.
 For the deployment of walls. we used Gazebo's building editor using the image of the top view of the igvc world as the
 [Floor_Plan](https://github.com/IVDC-Club-IIT-Indore/IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles/blob/main/Images/ground.png).
@@ -89,7 +100,7 @@ After getting a fairly accurate map, we moved onto trying path planning algorith
 3. Djikstra
 
 ### Initial Approach:
-First we converted our map to a binary occupancy grid given below to make path planning feasible
+First, we converted our map to a binary occupancy grid given below to make path planning feasible
 
 [Binary occupancy grid for Initial_Approach](Images/occupancy_grid_SLAM.png)
 
