@@ -251,6 +251,27 @@ Initializes the ROS node, sets up subscribers to the /odom and /my_path topics, 
 ###### Path Resolution and Time Step Calculation:
 Waits for the path data to be available, then calculates the path resolution and the time step (delta_T) based on the reference velocity (U_ref).
 
+###### MPC Problem Formulation:
+Sets up state (x_casadi, y_casadi, theta_casadi) and control (v_casadi, omega_casadi) variables in CasADi, constructs the robot’s motion model using the Runge-Kutta method, and defines the cost function.
+
+States:
+- x_casadi
+- y_casadi
+- theta_casadi
+
+Controls:
+- v_casadi
+- omega_casadi
+  
+###### Constraints and Bounds Setup:
+Defines constraints and bounds for the optimization problem, ensuring the predicted states and controls remain within specified limits.
+
+###### Optimization and Control Loop:
+Continuously solves the optimization problem to find the best control inputs, updates the current state, and publishes control commands (Twist messages) to the robot. The loop iterates until the robot reaches the target path within an allowed error margin.
+
+###### Stopping Condition and Cleanup:
+Stops the robot by sending zero velocity commands once the target is reached, prints the total number of MPC iterations, and the total time taken for the path tracking.
+
 
 This is the working model of the MPC Algorithm on Turtlebot3_Burger:
 [MPC_in_action](https://github.com/ppk1709/IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles/blob/main/MPC_results/MPC_in_action.mp4)
