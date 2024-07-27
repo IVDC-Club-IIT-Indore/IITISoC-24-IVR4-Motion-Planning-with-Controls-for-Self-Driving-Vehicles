@@ -93,7 +93,7 @@ For the deployment of walls. we used Gazebo's building editor using the image of
 
 With the usage of walls, we got a better [Map](https://github.com/IVDC-Club-IIT-Indore/IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles/blob/main/maps/map-soc-walls-3.png)
 
-<img src="maps\map-soc-walls-3.png" alt="Map_Final" width="300" height="300">
+<img src="maps\map-soc-walls-3.png" alt="Map_Final" width="400" height="400">
 
 After getting a fairly accurate map, we moved onto trying path planning algorithms like 
 1. Astar
